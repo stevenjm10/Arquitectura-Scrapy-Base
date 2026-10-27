@@ -1,10 +1,22 @@
+# Python environments
 .venv/
+.venv*/
+venv/
+
+# Instagram browser sessions and secrets
 .sesion_instagram/
-resultados/
-__pycache__/
-
-dashboard.html
-
-results/
 .instagram_session/
-.venv_nuevo/
+.env
+.env.*
+
+# Local extraction data and generated reports
+results/
+resultados/
+dashboard.html
+benford.html
+bigfive.html
+
+# Python cache and temporary review files
+__pycache__/
+*.py[cod]
+docx_render_review/
